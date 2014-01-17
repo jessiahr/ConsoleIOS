@@ -22,6 +22,8 @@
 		015A41EF1888E21A00A6B00A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015A41CE1888E21A00A6B00A /* UIKit.framework */; };
 		015A41F71888E21A00A6B00A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 015A41F51888E21A00A6B00A /* InfoPlist.strings */; };
 		015A41F91888E21A00A6B00A /* ConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015A41F81888E21A00A6B00A /* ConsoleTests.m */; };
+		015A42041888E29C00A6B00A /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015A42031888E29C00A6B00A /* DashboardViewController.m */; };
+		015A42071888E56400A6B00A /* SmartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 015A42061888E56400A6B00A /* SmartCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		015A41F41888E21A00A6B00A /* ConsoleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConsoleTests-Info.plist"; sourceTree = "<group>"; };
 		015A41F61888E21A00A6B00A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		015A41F81888E21A00A6B00A /* ConsoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleTests.m; sourceTree = "<group>"; };
+		015A42021888E29C00A6B00A /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		015A42031888E29C00A6B00A /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		015A42051888E56400A6B00A /* SmartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartCell.h; sourceTree = "<group>"; };
+		015A42061888E56400A6B00A /* SmartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				015A41DA1888E21A00A6B00A /* AppDelegate.m */,
 				015A41DC1888E21A00A6B00A /* Main_iPhone.storyboard */,
 				015A41DF1888E21A00A6B00A /* Main_iPad.storyboard */,
+				015A42021888E29C00A6B00A /* DashboardViewController.h */,
+				015A42031888E29C00A6B00A /* DashboardViewController.m */,
+				015A42051888E56400A6B00A /* SmartCell.h */,
+				015A42061888E56400A6B00A /* SmartCell.m */,
 				015A41E21888E21A00A6B00A /* ViewController.h */,
 				015A41E31888E21A00A6B00A /* ViewController.m */,
 				015A41E51888E21A00A6B00A /* Images.xcassets */,
@@ -256,6 +266,8 @@
 				015A41E41888E21A00A6B00A /* ViewController.m in Sources */,
 				015A41DB1888E21A00A6B00A /* AppDelegate.m in Sources */,
 				015A41D71888E21A00A6B00A /* main.m in Sources */,
+				015A42041888E29C00A6B00A /* DashboardViewController.m in Sources */,
+				015A42071888E56400A6B00A /* SmartCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
